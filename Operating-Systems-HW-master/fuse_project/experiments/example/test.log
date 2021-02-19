@@ -1,0 +1,423 @@
+.:
+total 64
+-rw-rw-r-- 1 user user 60867 May 29 12:39 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+-rw-rw-r-- 1 user user     0 May 29 22:15 test.log
+
+
+
+
+Writing file data to first file
+
+
+Writing similar (but not equal) data to second file
+
+.:
+total 68
+-rw-rw-r-- 1 user user 60867 May 29 12:39 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+-rw-rw-r-- 1 user user   256 May 29 22:16 test.log
+
+
+
+
+Creating copy files
+
+.:
+total 68
+-rw-rw-r-- 1 user user 60867 May 29 12:39 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+-rw-rw-r-- 1 user user   446 May 29 22:16 test.log
+
+
+
+.:
+total 68
+-rw-rw-r-- 1 user user 60867 May 29 12:39 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+-rw-rw-r-- 1 user user   614 May 29 22:16 test.log
+
+
+
+
+Writing file data to first file
+
+.:
+total 8
+-rw-rw-r-- 1 user user   0 May 29 22:19 bbfs.log
+-rw-r--r-- 1 user user 185 Feb  4  2018 Makefile
+-rw-rw-r-- 1 user user 816 May 29 22:18 test.log
+
+
+
+
+Writing file data to first file
+
+.:
+total 36
+-rw-rw-r-- 1 user user 17943 May 29 22:21 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:19 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:19 rootdir
+-rw-rw-r-- 1 user user  1011 May 29 22:19 test.log
+
+./mountdir:
+total 0
+
+./rootdir:
+total 0
+
+
+
+
+Writing file data to first file
+
+
+Writing similar (but not equal) data to second file
+
+.:
+total 92
+-rw-rw-r-- 1 user user 76560 May 29 22:22 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:22 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:22 rootdir
+-rw-rw-r-- 1 user user  1409 May 29 22:22 test.log
+
+./mountdir:
+total 0
+-rw-rw-r-- 1 user user 16 May 29 22:22 file1.txt
+-rw-rw-r-- 1 user user 16 May 29 22:22 file2.txt
+
+./rootdir:
+total 8
+-rw-rw-r-- 1 user user  0 May 29 22:22 file1.txt
+-rw-rw-r-- 1 user user  0 May 29 22:22 file2.txt
+-rw-rw-r-- 1 user user 16 May 29 22:22 fuse_block_n0:1
+-rw-rw-r-- 1 user user 16 May 29 22:22 fuse_block_n0:2
+
+
+
+
+Creating copy files
+
+.:
+total 112
+-rw-rw-r-- 1 user user 97593 May 29 22:22 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:22 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:22 rootdir
+-rw-rw-r-- 1 user user  2047 May 29 22:22 test.log
+
+./mountdir:
+total 0
+-rw-rw-r-- 1 user user 16 May 29 22:22 file1_copy.txt
+-rw-rw-r-- 1 user user 16 May 29 22:22 file1.txt
+-rw-rw-r-- 1 user user 16 May 29 22:22 file2_copy.txt
+-rw-rw-r-- 1 user user 16 May 29 22:22 file2.txt
+
+./rootdir:
+total 8
+-rw-rw-r-- 1 user user  0 May 29 22:22 file1_copy.txt
+-rw-rw-r-- 1 user user  0 May 29 22:22 file1.txt
+-rw-rw-r-- 1 user user  0 May 29 22:22 file2_copy.txt
+-rw-rw-r-- 1 user user  0 May 29 22:22 file2.txt
+-rw-rw-r-- 1 user user 16 May 29 22:22 fuse_block_n0:1
+-rw-rw-r-- 1 user user 16 May 29 22:22 fuse_block_n0:2
+
+
+
+.:
+total 28
+-rw-rw-r-- 1 user user 11533 May 29 22:22 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:22 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:22 rootdir
+-rw-rw-r-- 1 user user  2880 May 29 22:22 test.log
+
+./mountdir:
+total 0
+
+./rootdir:
+total 0
+
+
+
+
+Writing file data to first file
+
+.:
+total 32
+-rw-rw-r-- 1 user user 13258 May 29 22:27 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:27 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:27 rootdir
+-rw-rw-r-- 1 user user  3224 May 29 22:22 test.log
+
+./mountdir:
+total 0
+
+./rootdir:
+total 0
+
+
+
+
+Writing file data to first file
+
+
+Writing similar (but not equal) data to second file
+
+.:
+total 92
+-rw-rw-r-- 1 user user 75975 May 29 22:27 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:27 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:27 rootdir
+-rw-rw-r-- 1 user user  3622 May 29 22:27 test.log
+
+./mountdir:
+total 0
+-rw-rw-r-- 1 user user 16 May 29 22:27 file1.txt
+-rw-rw-r-- 1 user user 16 May 29 22:27 file2.txt
+
+./rootdir:
+total 8
+-rw-rw-r-- 1 user user  0 May 29 22:27 file1.txt
+-rw-rw-r-- 1 user user  0 May 29 22:27 file2.txt
+-rw-rw-r-- 1 user user 16 May 29 22:27 fuse_block_n0:1
+-rw-rw-r-- 1 user user 16 May 29 22:27 fuse_block_n0:2
+
+
+
+
+Creating copy files
+
+.:
+total 116
+-rw-rw-r-- 1 user user 97004 May 29 22:27 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:27 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:27 rootdir
+-rw-rw-r-- 1 user user  4260 May 29 22:27 test.log
+
+./mountdir:
+total 0
+-rw-rw-r-- 1 user user 16 May 29 22:27 file1_copy.txt
+-rw-rw-r-- 1 user user 16 May 29 22:27 file1.txt
+-rw-rw-r-- 1 user user 16 May 29 22:27 file2_copy.txt
+-rw-rw-r-- 1 user user 16 May 29  2019 file2.txt
+
+./rootdir:
+total 8
+-rw-rw-r-- 1 user user  0 May 29 22:27 file1_copy.txt
+-rw-rw-r-- 1 user user  0 May 29 22:27 file1.txt
+-rw-rw-r-- 1 user user  0 May 29 22:27 file2_copy.txt
+-rw-rw-r-- 1 user user  0 May 29 22:27 file2.txt
+-rw-rw-r-- 1 user user 16 May 29 22:27 fuse_block_n0:1
+-rw-rw-r-- 1 user user 16 May 29 22:27 fuse_block_n0:2
+
+
+
+.:
+total 32
+-rw-rw-r-- 1 user user 11460 May 29 22:29 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:29 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:29 rootdir
+-rw-rw-r-- 1 user user  5093 May 29 22:27 test.log
+
+./mountdir:
+total 0
+
+./rootdir:
+total 0
+
+
+
+
+Writing file data to first file
+
+
+Writing similar (but not equal) data to second file
+
+.:
+total 84
+-rw-rw-r-- 1 user user 61455 May 29 22:29 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:29 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:29 rootdir
+-rw-rw-r-- 1 user user  5491 May 29 22:29 test.log
+
+./mountdir:
+total 0
+
+./rootdir:
+total 0
+
+
+
+
+Creating copy files
+
+.:
+total 84
+-rw-rw-r-- 1 user user 65248 May 29 22:29 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:29 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:29 rootdir
+-rw-rw-r-- 1 user user  5823 May 29 22:29 test.log
+
+./mountdir:
+total 0
+
+./rootdir:
+total 0
+
+
+
+.:
+total 32
+-rw-rw-r-- 1 user user 12252 May 29 22:34 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:34 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:34 rootdir
+-rw-rw-r-- 1 user user  6133 May 29 22:29 test.log
+
+./mountdir:
+total 0
+
+./rootdir:
+total 0
+
+
+
+
+Writing file data to first file
+
+
+Writing similar (but not equal) data to second file
+
+.:
+total 96
+-rw-rw-r-- 1 user user 77377 May 29 22:35 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:35 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:35 rootdir
+-rw-rw-r-- 1 user user  6531 May 29 22:35 test.log
+
+./mountdir:
+total 0
+-rw-rw-r-- 1 user user 16 May 29 22:35 file1.txt
+-rw-rw-r-- 1 user user 16 May 29 22:35 file2.txt
+
+./rootdir:
+total 8
+-rw-rw-r-- 1 user user  0 May 29 22:35 file1.txt
+-rw-rw-r-- 1 user user  0 May 29 22:35 file2.txt
+-rw-rw-r-- 1 user user 16 May 29 22:35 fuse_block_n0:1
+-rw-rw-r-- 1 user user 16 May 29 22:35 fuse_block_n0:2
+
+
+
+
+Creating copy files
+
+.:
+total 120
+-rw-rw-r-- 1 user user 98973 May 29 22:35 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:35 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:35 rootdir
+-rw-rw-r-- 1 user user  7169 May 29 22:35 test.log
+
+./mountdir:
+total 0
+-rw-rw-r-- 1 user user 16 May 29 22:35 file1_copy.txt
+-rw-rw-r-- 1 user user 16 May 29 22:35 file1.txt
+-rw-rw-r-- 1 user user 16 May 29 22:35 file2_copy.txt
+-rw-rw-r-- 1 user user 16 May 29 22:35 file2.txt
+
+./rootdir:
+total 8
+-rw-rw-r-- 1 user user  0 May 29 22:35 file1_copy.txt
+-rw-rw-r-- 1 user user  0 May 29 22:35 file1.txt
+-rw-rw-r-- 1 user user  0 May 29 22:35 file2_copy.txt
+-rw-rw-r-- 1 user user  0 May 29 22:35 file2.txt
+-rw-rw-r-- 1 user user 16 May 29 22:35 fuse_block_n0:1
+-rw-rw-r-- 1 user user 16 May 29 22:35 fuse_block_n0:2
+
+
+
+.:
+total 32
+-rw-rw-r-- 1 user user 12252 May 29 22:38 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:38 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:38 rootdir
+-rw-rw-r-- 1 user user  8002 May 29 22:35 test.log
+
+./mountdir:
+total 0
+
+./rootdir:
+total 0
+
+
+
+
+Writing file data to first file
+
+
+Writing similar (but not equal) data to second file
+
+.:
+total 100
+-rw-rw-r-- 1 user user 76798 May 29 22:38 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:38 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:38 rootdir
+-rw-rw-r-- 1 user user  8400 May 29 22:38 test.log
+
+./mountdir:
+total 0
+-rw-rw-r-- 1 user user 16 May 29  2019 file1.txt
+-rw-rw-r-- 1 user user 16 May 29 22:38 file2.txt
+
+./rootdir:
+total 8
+-rw-rw-r-- 1 user user  0 May 29 22:38 file1.txt
+-rw-rw-r-- 1 user user  0 May 29 22:38 file2.txt
+-rw-rw-r-- 1 user user 16 May 29 22:38 fuse_block_n0:1
+-rw-rw-r-- 1 user user 16 May 29 22:38 fuse_block_n0:2
+
+
+
+
+Creating copy files
+
+.:
+total 120
+-rw-rw-r-- 1 user user 97269 May 29 22:39 bbfs.log
+-rw-r--r-- 1 user user   185 Feb  4  2018 Makefile
+drwxrwxr-x 2 user user  4096 May 29 22:39 mountdir
+drwxrwxr-x 2 user user  4096 May 29 22:39 rootdir
+-rw-rw-r-- 1 user user  9039 May 29 22:38 test.log
+
+./mountdir:
+total 0
+-rw-rw-r-- 1 user user 16 May 29 22:39 file1_copy.txt
+-rw-rw-r-- 1 user user 16 May 29 22:39 file1.txt
+-rw-rw-r-- 1 user user 16 May 29 22:39 file2_copy.txt
+-rw-rw-r-- 1 user user 16 May 29  2019 file2.txt
+
+./rootdir:
+total 8
+-rw-rw-r-- 1 user user  0 May 29 22:39 file1_copy.txt
+-rw-rw-r-- 1 user user  0 May 29 22:38 file1.txt
+-rw-rw-r-- 1 user user  0 May 29 22:39 file2_copy.txt
+-rw-rw-r-- 1 user user  0 May 29 22:38 file2.txt
+-rw-rw-r-- 1 user user 16 May 29 22:38 fuse_block_n0:1
+-rw-rw-r-- 1 user user 16 May 29 22:38 fuse_block_n0:2
+
+
+

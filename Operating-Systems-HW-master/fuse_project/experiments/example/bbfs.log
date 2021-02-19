@@ -1,0 +1,3204 @@
+
+bb_init()
+    conn:
+    proto_major = 7
+    proto_minor = 22
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = 09f29440
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = 09f26008
+    logfile = 09f27028
+    rootdir = /home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir
+    umask = 00000
+
+bb_opendir(path="/", fi=0xb737f134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+
+bb_getattr(path="/.Trash", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/.Trash", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/.Trash"
+    opendir returned 0x0xb6a006e8
+    fi:
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a006e8
+    lock_owner = 0x0000000000000000
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.xdg-volume-info", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/.xdg-volume-info", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/.xdg-volume-info"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/autorun.inf", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/autorun.inf", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_readdir(path="/", buf=0xb6a00590, filler=0xb7729e80, offset=0, fi=0xb737f124)
+    readdir returned 0x0xb6a00704
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb6a006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a006e8
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb737f134)
+    fi:
+    flags = 0x00000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/.Trash-1000", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_opendir(path="/", fi=0xb5fff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb5600638
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+    fh_old = 0xb6a006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a006e8
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb56004e0, filler=0xb7729e80, offset=0, fi=0xb69ff124)
+    readdir returned 0x0xb5600654
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb737f134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb5fff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb5600580
+
+bb_getattr(path="/", statbuf=0xb69ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289568
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5ceedfc2
+    st_mtime = 0x5ceedfc2
+    st_ctime = 0x5ceedfc2
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600580
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb5600530, filler=0xb7729e80, offset=0, fi=0xb5fff124)
+    readdir returned 0x0xb560059c
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600580
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb737f134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600580
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb5fff134)
+
+bb_getxattr(path = "/", name = "security.selinux", value = 0xb6a00590, size = 255)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb5600530
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600530
+    lock_owner = 0x0000000000000000
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_readdir(path="/", buf=0xb56004e0, filler=0xb7729e80, offset=0, fi=0xb5fff124)
+    readdir returned 0x0xb560054c
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600530
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600530
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb5fff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600530
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600530
+
+bb_opendir(path="/", fi=0xb737f134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0xb6a006e8
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+
+bb_getxattr(path = "/", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lgetxattr returned -1
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a006e8
+    lock_owner = 0x0000000000000000
+    ERROR lgetxattr: No data available
+
+bb_readdir(path="/", buf=0xb6a00590, filler=0xb7729e80, offset=0, fi=0xb5fff124)
+    readdir returned 0x0xb6a00704
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb6a006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a006e8
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb69ff134)
+
+bb_opendir(path="/", fi=0xb5fff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb5600af8
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600af8
+    lock_owner = 0x0000000000000000
+
+bb_getxattr(path = "/", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb6a006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a006e8
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb56004e0, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb5600b14
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600af8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600af8
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb5fff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600af8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600af8
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb5fff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb5600638
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb56004e0, filler=0xb7729e80, offset=0, fi=0xb5fff124)
+    readdir returned 0x0xb5600654
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb5fff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb5fff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb5600638
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb56004e0, filler=0xb7729e80, offset=0, fi=0xb5fff124)
+    readdir returned 0x0xb5600654
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb5fff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb5fff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb5600638
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb56004e0, filler=0xb7729e80, offset=0, fi=0xb5fff124)
+    readdir returned 0x0xb5600654
+calling filler with name .
+calling filler with name ..
+
+bb_opendir(path="/", fi=0xb55ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4c006e8
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c006e8
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0xb55ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289568
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5ceedfc2
+    st_mtime = 0x5ceedfc2
+    st_ctime = 0x5ceedfc2
+
+bb_releasedir(path="/", fi=0xb5fff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+
+bb_readdir(path="/", buf=0xb4c00590, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb4c00704
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c006e8
+    lock_owner = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb4bff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4200638
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200638
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb5fff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c006e8
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb42004e0, filler=0xb7729e80, offset=0, fi=0xb5fff124)
+    readdir returned 0x0xb4200654
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4200638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200638
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb5fff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4200638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200638
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb4bff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4200580
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200580
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb4200530, filler=0xb7729e80, offset=0, fi=0xb69ff124)
+    readdir returned 0x0xb420059c
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4200580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200580
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb737f134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4200580
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200580
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb5fff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb5600638
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb56004e0, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb5600654
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb4bff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb55ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4c00ba8
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c00ba8
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb4c00590, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb4c00bc4
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c00ba8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c00ba8
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb69ff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c00ba8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c00ba8
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb5fff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb5600638
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb56004e0, filler=0xb7729e80, offset=0, fi=0xb737f124)
+    readdir returned 0x0xb5600654
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb55ff134)
+
+bb_opendir(path="/", fi=0xb69ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb60006e8
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb60006e8
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb5600638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb5600638
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb6000590, filler=0xb7729e80, offset=0, fi=0xb5fff124)
+    readdir returned 0x0xb6000704
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb60006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb60006e8
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb4bff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb60006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb60006e8
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb4bff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4200638
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200638
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb42004e0, filler=0xb7729e80, offset=0, fi=0xb69ff124)
+    readdir returned 0x0xb4200654
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4200638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200638
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb5fff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4200638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+
+bb_opendir(path="/", fi=0xb55ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4c006e8
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    fh = 0xffffffffb4200638
+    lock_owner = 0x0000000000000000
+    keep_cache = 0
+    fh = 0xffffffffb4c006e8
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb4c00590, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb4c00704
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c006e8
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb737f134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c006e8
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb55ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4c00630
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c00630
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb4c005e0, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb4c0064c
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c00630
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c00630
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb4bff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c00630
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c00630
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb55ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4c005e0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c005e0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb4c00590, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb4c005fc
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c005e0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c005e0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb69ff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c005e0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c005e0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb55ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4c00590
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c00590
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb4c08600, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb4c005ac
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c00590
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c00590
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb5fff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c00590
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+
+bb_opendir(path="/", fi=0xb55ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4c08b60
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    fh = 0xffffffffb4c00590
+    lock_owner = 0x0000000000000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c08b60
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb4c085b0, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb4c08b7c
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c08b60
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c08b60
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb737f134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c08b60
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c08b60
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xb4bff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4200638
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200638
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb42004e0, filler=0xb7729e80, offset=0, fi=0xb737f124)
+    readdir returned 0x0xb4200654
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4200638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200638
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb55ff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4200638
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4200638
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/autorun.inf", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/autorun.inf", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/", statbuf=0xb69ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289568
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5ceedfc2
+    st_mtime = 0x5ceedfc2
+    st_ctime = 0x5ceedfc2
+
+bb_opendir(path="/", fi=0xb55ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb4c006e8
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c006e8
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_readdir(path="/", buf=0xb4c00590, filler=0xb7729e80, offset=0, fi=0xb5fff124)
+    readdir returned 0x0xb4c00704
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c006e8
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xb737f134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb4c006e8
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb4c006e8
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_mknod(path="/file1.txt", mode=0100664, dev=0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    open returned 5
+    close returned 0
+
+bb_getattr(path="/file1.txt", statbuf=0xb55ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfc9
+    st_mtime = 0x5ceedfc9
+    st_ctime = 0x5ceedfc9
+
+bb_open(path"/file1.txt", fi=0xb5fff1c0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    open returned 5
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_getxattr(path = "/file1.txt", name = "security.capability", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_write(path="/file1.txt", buf=0xb7380058, size=16, offset=0, fi=0xb737f244)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+
+
+CREATE BLOCK!
+
+
+bb_mknod(path="/fuse_block_n0:1", mode=0666, dev=0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/fuse_block_n0:1", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/fuse_block_n0:1"
+    mknod returned 0
+
+
+created block!
+
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/fuse_block_n0:1", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/fuse_block_n0:1"
+
+
+-----------------6-----------
+
+    pwrite returned 16
+
+bb_getattr(path="/file1.txt", statbuf=0xb69ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfc9
+    st_mtime = 0x5ceedfc9
+    st_ctime = 0x5ceedfc9
+
+bb_flush(path="/file1.txt", fi=0xb55ff1c0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x04e3037c5d0e404d
+
+bb_release(path="/file1.txt", fi=0xb5fff1b0)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_getattr(path="/", statbuf=0xb4bff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289568
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5ceedfc2
+    st_mtime = 0x5ceedfc9
+    st_ctime = 0x5ceedfc9
+
+bb_access(path="/file1.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+
+bb_access(path="/file1.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+
+bb_access(path="/file1.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+
+bb_access(path="/file1.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+
+bb_access(path="/file1.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+
+bb_access(path="/file1.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+
+bb_getattr(path="/file1.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfca
+    st_mtime = 0x5ceedfca
+    st_ctime = 0x5ceedfc9
+
+bb_getattr(path="/.hidden", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/.hidden", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/.hidden"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfcd
+    st_mtime = 0x5ceedfcd
+    st_ctime = 0x5ceedfc9
+
+bb_getattr(path="/file2.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/", statbuf=0xb4bff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289568
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5ceedfc2
+    st_mtime = 0x5ceedfc9
+    st_ctime = 0x5ceedfc9
+
+bb_opendir(path="/", fi=0xb737f134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb6a01800
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a01800
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_readdir(path="/", buf=0xb6a00590, filler=0xb7729e80, offset=0, fi=0xb69ff124)
+    readdir returned 0x0xb6a0181c
+calling filler with name file1.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb6a01800
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a01800
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/.hidden", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/.hidden", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/.hidden"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_releasedir(path="/", fi=0xb737f134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb6a01800
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a01800
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfce
+    st_mtime = 0x5ceedfce
+    st_ctime = 0x5ceedfc9
+
+bb_getattr(path="/file2.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb4bff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_mknod(path="/file2.txt", mode=0100664, dev=0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    open returned 5
+    close returned 0
+
+bb_getattr(path="/file2.txt", statbuf=0xb69ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289574
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd1
+    st_mtime = 0x5ceedfd1
+    st_ctime = 0x5ceedfd1
+
+bb_open(path"/file2.txt", fi=0xb55ff1c0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    open returned 5
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_getxattr(path = "/file2.txt", name = "security.capability", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_write(path="/file2.txt", buf=0xb61dd058, size=16, offset=0, fi=0xb4bff244)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+
+
+hash:YdÎ¨êZ§]áZ¥u5/g°,compare_hash:ÃK≈>‰x88W!¥RGs8©Œ√
+
+
+
+CREATE BLOCK!
+
+
+bb_mknod(path="/fuse_block_n0:2", mode=0666, dev=0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/fuse_block_n0:2", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/fuse_block_n0:2"
+    mknod returned 0
+
+
+created block!
+
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/fuse_block_n0:2", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/fuse_block_n0:2"
+
+
+-----------------7-----------
+
+    pwrite returned 16
+
+bb_getattr(path="/file2.txt", statbuf=0xb737f0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289574
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd1
+    st_mtime = 0x5ceedfd1
+    st_ctime = 0x5ceedfd1
+
+bb_flush(path="/file2.txt", fi=0xb69ff1c0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x46914c3431042432
+
+bb_release(path="/file2.txt", fi=0xb55ff1b0)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_getattr(path="/", statbuf=0xb5fff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289568
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5ceedfcd
+    st_mtime = 0x5ceedfd1
+    st_ctime = 0x5ceedfd1
+
+bb_access(path="/file2.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+
+bb_access(path="/file2.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+
+bb_access(path="/file2.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+
+bb_access(path="/file2.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+
+bb_access(path="/file2.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+
+bb_access(path="/file2.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+
+bb_getattr(path="/file2.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289574
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd2
+    st_mtime = 0x5ceedfd2
+    st_ctime = 0x5ceedfd1
+
+bb_getattr(path="/file1.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd3
+    st_mtime = 0x5ceedfd3
+    st_ctime = 0x5ceedfc9
+
+bb_getattr(path="/", statbuf=0xb55ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289568
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5ceedfcd
+    st_mtime = 0x5ceedfd1
+    st_ctime = 0x5ceedfd1
+
+bb_getxattr(path = "/", name = "security.selinux", value = 0xb56004e0, size = 255)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_opendir(path="/", fi=0xb69ff134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb60017f0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb60017f0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb6000590, filler=0xb7729e80, offset=0, fi=0xb55ff124)
+    readdir returned 0x0xb600180c
+calling filler with name file1.txt
+calling filler with name .
+calling filler with name ..
+calling filler with name file2.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb60017f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb60017f0
+    lock_owner = 0x0000000000000000
+
+bb_getxattr(path = "/file1.txt", name = "security.selinux", value = 0xb56004e0, size = 255)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file1.txt", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file1.txt", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file2.txt", name = "security.selinux", value = 0xb60016e8, size = 255)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file2.txt", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file2.txt", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_releasedir(path="/", fi=0xb737f134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb60017f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb60017f0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/file1_copy.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd4
+    st_mtime = 0x5ceedfd4
+    st_ctime = 0x5ceedfc9
+
+bb_getattr(path="/file1_copy.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_open(path"/file1.txt", fi=0xb4bff1c0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    open returned 5
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/file1_copy.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_mknod(path="/file1_copy.txt", mode=0100664, dev=0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    open returned 8
+    close returned 0
+
+bb_getattr(path="/file1_copy.txt", statbuf=0xb69ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289576
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd4
+    st_mtime = 0x5ceedfd4
+    st_ctime = 0x5ceedfd4
+
+bb_open(path"/file1_copy.txt", fi=0xb55ff1c0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    open returned 8
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000008
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/file1.txt", buf=0xb5600610, size=4096, offset=0, fi=0xb5fff1b0)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+
+
+READ:------------6-------------
+
+
+
+buf:This is a test!
+..
+
+    pread returned 4096
+
+bb_getxattr(path = "/file1_copy.txt", name = "security.capability", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_write(path="/file1_copy.txt", buf=0xb7380058, size=16, offset=0, fi=0xb737f244)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000008
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000008
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+
+
+hash:ÃK≈>‰x88W!¥RGs8©Œ√,compare_hash:YdÎ¨êZ§]áZ¥u5/g°
+
+
+
+hash:ÃK≈>‰x88W!¥RGs8©Œ√,compare_hash:ÃK≈>‰x88W!¥RGs8©Œ√
+
+    pwrite returned 16
+
+bb_fgetattr(path="/file1.txt", statbuf=0xb69ff0f4, fi=0xb69ff1c0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    si:
+    st_dev = 2049
+    st_ino = 289572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfc9
+    st_mtime = 0x5ceedfc9
+    st_ctime = 0x5ceedfc9
+
+bb_read(path="/file1.txt", buf=0xb4c01710, size=4096, offset=0, fi=0xb55ff1b0)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+
+
+READ:------------6-------------
+
+
+
+buf:This is a test!
+
+
+    pread returned 4096
+
+bb_flush(path="/file1_copy.txt", fi=0xb5fff1c0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000008
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000008
+    lock_owner = 0x7f041dc95250328a
+
+bb_release(path="/file1_copy.txt", fi=0xb4bff1b0)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000008
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000008
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_flush(path="/file1.txt", fi=0xb4bff1c0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x7f041dc95250328a
+
+bb_release(path="/file1.txt", fi=0xb737f1b0)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_getattr(path="/file2_copy.txt", statbuf=0xb69ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/file2.txt", statbuf=0xb55ff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289574
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd4
+    st_mtime = 0x5ceedfd4
+    st_ctime = 0x5ceedfd1
+
+bb_getattr(path="/file2_copy.txt", statbuf=0xb5fff104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_open(path"/file2.txt", fi=0xb4bff1c0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    open returned 5
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/file2_copy.txt", statbuf=0xb737f104)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_mknod(path="/file2_copy.txt", mode=0100664, dev=0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    open returned 8
+    close returned 0
+
+bb_getattr(path="/file2_copy.txt", statbuf=0xb69ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289577
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd4
+    st_mtime = 0x5ceedfd4
+    st_ctime = 0x5ceedfd4
+
+bb_open(path"/file2_copy.txt", fi=0xb55ff1c0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    open returned 8
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000008
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/file2.txt", buf=0xb5600610, size=4096, offset=0, fi=0xb5fff1b0)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+
+
+READ:------------7-------------
+
+
+
+buf:This is a jest!
+..
+
+    pread returned 4096
+
+bb_getxattr(path = "/file2_copy.txt", name = "security.capability", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_write(path="/file2_copy.txt", buf=0xb7380058, size=16, offset=0, fi=0xb737f244)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000008
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000008
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+
+
+hash:YdÎ¨êZ§]áZ¥u5/g°,compare_hash:YdÎ¨êZ§]áZ¥u5/g°
+
+    pwrite returned 16
+
+bb_fgetattr(path="/file2.txt", statbuf=0xb69ff0f4, fi=0xb69ff1c0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    si:
+    st_dev = 2049
+    st_ino = 289574
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd1
+    st_mtime = 0x5ceedfd1
+    st_ctime = 0x5ceedfd1
+
+bb_read(path="/file2.txt", buf=0xb4c01710, size=4096, offset=0, fi=0xb55ff1b0)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+
+
+READ:------------7-------------
+
+
+
+buf:This is a jest!
+
+
+    pread returned 4096
+
+bb_flush(path="/file2_copy.txt", fi=0xb5fff1c0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000008
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000008
+    lock_owner = 0x8daa40244950d53e
+
+bb_release(path="/file2_copy.txt", fi=0xb4bff1b0)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000008
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000008
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_flush(path="/file2.txt", fi=0xb4bff1c0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x8daa40244950d53e
+
+bb_release(path="/file2.txt", fi=0xb737f1b0)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_getattr(path="/", statbuf=0xb69ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289568
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5ceedfd3
+    st_mtime = 0x5ceedfd4
+    st_ctime = 0x5ceedfd4
+
+bb_getxattr(path = "/", name = "security.selinux", value = 0xb4c00590, size = 255)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_opendir(path="/", fi=0xb737f134)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/"
+    opendir returned 0x0xb6a01800
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a01800
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0xb6a00590, filler=0xb7729e80, offset=0, fi=0xb69ff124)
+    readdir returned 0x0xb6a0181c
+calling filler with name file1.txt
+calling filler with name file2_copy.txt
+calling filler with name file1_copy.txt
+calling filler with name .
+calling filler with name ..
+calling filler with name file2.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb6a01800
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a01800
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/file1.txt", statbuf=0xb55ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289572
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd4
+    st_mtime = 0x5ceedfd4
+    st_ctime = 0x5ceedfc9
+
+bb_getxattr(path = "/file1.txt", name = "security.selinux", value = 0xb56004e0, size = 255)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file1.txt", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file1.txt", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getattr(path="/file2_copy.txt", statbuf=0xb69ff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289577
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd4
+    st_mtime = 0x5ceedfd4
+    st_ctime = 0x5ceedfd4
+
+bb_getxattr(path = "/file2_copy.txt", name = "security.selinux", value = 0xb4c00590, size = 255)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file2_copy.txt", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file2_copy.txt", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2_copy.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getattr(path="/file1_copy.txt", statbuf=0xb737f0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289576
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd4
+    st_mtime = 0x5ceedfd4
+    st_ctime = 0x5ceedfd4
+
+bb_getxattr(path = "/file1_copy.txt", name = "security.selinux", value = 0xb6000590, size = 255)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file1_copy.txt", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file1_copy.txt", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file1_copy.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file1_copy.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getattr(path="/file2.txt", statbuf=0xb4bff0f4)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lstat returned 0
+    si:
+    st_dev = 2049
+    st_ino = 289574
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 16
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5ceedfd4
+    st_mtime = 0x5ceedfd4
+    st_ctime = 0x5ceedfd1
+
+bb_getxattr(path = "/file2.txt", name = "security.selinux", value = 0xb6a006c8, size = 255)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file2.txt", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/file2.txt", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir", path = "/file2.txt", fpath = "/home/user/Downloads/project_4_2352_2378_2389/experiments/example/rootdir/file2.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_releasedir(path="/", fi=0xb4bff134)
+    fi:
+    flags = 0x00000000
+    fh_old = 0xb6a01800
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0xffffffffb6a01800
+    lock_owner = 0x0000000000000000
+
+bb_destroy(userdata=0x09f26008)
